@@ -50,7 +50,7 @@ void findMaxHourGlass(vector<vector<int>> arr)
         {
             sum = arr.at(i).at(j)+arr.at(i).at(j+1)+arr.at(i).at(j+2)+arr.at(i+1).at(j+1)
                 +arr.at(i+2).at(j)+arr.at(i+2).at(j+1)+arr.at(i+2).at(j+2);
-            if(i==0 && j==0)//initializes max with first sumation of hourglass elements
+            if(i==0 && j==0)//initializes max with first summation of hourglass elements
             {
                 max = sum;
             }
