@@ -2,6 +2,7 @@
 This program takes a 6x6 matrix of numbers and finds and hourglasses or "I" shapes in the matrix and adds all of the elements contained in the "I" shape together. After going through all of the possible "I" shapes contained in the matrix, the program prints the max sum result. Disclaimer, this is a challenge I found on hackerrank, but I really enjoyed working this challenge out so I'd like to post my submission here.
 
 # Example
+```
 Input:
 1 1 1 0 0 0
 0 1 0 0 0 0
@@ -9,18 +10,23 @@ Input:
 0 0 2 4 4 0
 0 0 0 2 0 0
 0 0 1 2 4 0
-
+```
+```
 output:
 19
+```
 
 You can use the printHourGlass function to see the possible hourglasses contained in the matrix. It will look like this:
+```
 1 1 1
   1     = 1+1+1+1+1+1+1 = 7 
 1 1 1
-
+```
+```
 2 4 4
   2     = 2 + 4 + 4 + 2 + 1 +2 + 4 = 19 Here is your max
 1 2 4
+```
 
 You can uncomment out the debugging lines to see what is going on internally. 
 
